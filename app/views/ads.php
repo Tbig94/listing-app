@@ -21,7 +21,7 @@
         </tr>
         <?php foreach ($data['ads'] as $ads): ?>
             <tr>
-                <td><?php echo $ads->id; ?></td>
+                <td><?php echo $ads->ad_id; ?></td>
                 <td><?php echo $ads->title; ?></td>
                 <td><?php echo $ads->name; ?></td>
             </tr>
